@@ -2,8 +2,8 @@ import guiatv
 
 import guiatv
 guiatv.opciones()
-numero = input('')
-print('elegiste la opción',numero)
+numero = input('')#int(input(""))
+print('elegiste la opción',numero)#razon de poner esto?????
 if numero == '1':
     print('¿cuantos canales deseas listar?')
     cantidad = input('')
